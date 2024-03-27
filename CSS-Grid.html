@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid with Yahoo Baba</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica;
+            
+        }
+        .container{
+        background: #eee;        
+        width: 700px;
+        margin: 50px 0 0 50px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: 100px 100px 100px;
+
+        grid-gap: 20px 15px;
+        
+        }
+        .items1{
+            background: orangered;
+        }
+        .items2{
+            background: teal;
+        }
+        .items3{
+            background: yellowgreen;
+        }
+        .items4{
+            background: royalblue;
+        }
+        .items5{
+            background: palevioletred;
+        }
+        .items6{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid</h1>
+    <h4>Hasan Kabir</h4>
+    
+    <div class="container">
+        <div class="items items1">First</div>
+        <div class="items items2">Second</div>
+        <div class="items items3">Third</div>
+        <div class="items items4">Fourth</div>
+        <div class="items items5">Fifth</div>
+        <div class="items items6">Sixth</div>
+    </div>
+</body>
+</html>
